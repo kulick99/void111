@@ -9,4 +9,6 @@ RUN npm install
 
 COPY . .
 
+EXPOSE 443
+
 CMD [ "node", "index.js" ]
